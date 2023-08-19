@@ -1,0 +1,239 @@
+﻿/* index.css */
+body{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+div {
+	box-sizing: border-box;
+}
+/*Шапка тут началась*/
+header{
+	background: #FFFFFF;
+	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+	height: 72px;
+}
+.logo{
+	margin-top: 30px;
+}
+nav {
+	float:right;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+}
+.menu li {
+	float: left;
+	display:block;
+	margin-top: 25px;
+}
+.menu li img{
+	margin-left: 27px;
+}
+.menu li a{
+	text-decoration: none;
+	color: #626262;
+	padding: 14px 20px 14px 20px;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+}
+@media (min-width:0) and (max-width:768px) {
+   .basket {
+       display:none;
+   }
+}
+button[type="submit"]{
+	margin-top: 20px;
+}
+/*Шапка тут закончилась*/
+
+/*Search for restauran*/
+.span{
+	margin-top: 56px;
+}
+.span span{
+	font-size: 16px;
+	line-height: 24px;
+	color: #626262;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+.span hr{
+	height: 1px;
+	background: #757575;
+	mix-blend-mode: normal;
+	opacity: 0.3;
+	margin: 0;
+	padding: 0;
+}
+input[type="search"]{
+	width: 100%;
+  border:none;
+  outline: none;
+}
+
+/*Search for restauran*/
+
+/* Основа начало */
+.res h1{
+	padding: 0;
+	margin-top: 56px;
+	margin-bottom: 16px;
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 34px;
+	color: #1D1D1D;
+}
+.res span{
+	display: block;
+}
+
+.res .col-xs-12:hover{
+	background: rgba(117, 117, 117,0.09);
+}
+.res span:nth-of-type(1){
+	font-size: 16px;
+	line-height: 24px;
+	color: #1D1D1D;
+	padding-top:16px;
+}
+.res span:nth-of-type(2){
+	font-size: 14px;
+	line-height: 21px;
+	color: #626262;
+	padding-top: 4px;
+}
+.res span:nth-of-type(3){
+	font-size: 13px;
+	line-height: 21px;
+	color: #1D1D1D;
+	padding-bottom: 36px;
+}
+/* Основа конец */
+
+/* footer */
+footer {
+	margin-top: 64px;
+	background: #262626;
+}
+.logo img {
+	width: 190.77px;
+	height: 19.69px;
+	margin-top: 56px;
+	margin-bottom: 40px;
+}
+footer hr {
+	margin: 0;
+	padding: 0;
+	height: 1px;
+	background: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.4;
+}
+
+/****************************
+**********left***************
+*****************************/
+.block select {
+	margin-top: 32px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	width:100%;
+	background: url(pic/Shape.png) no-repeat 96% 50%, url(pic/world.png) no-repeat 8% 50%;
+	background-size:15px;
+	background-color: #3B3B3B;
+	border-radius: 2px;
+	height: 40px;
+	border:none;
+	padding-left: 50px;
+	padding-right:15px;
+	color: #fff;
+	font-size: 13px;
+ }
+ .uber{
+	display: block;
+	margin-top: 33px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.uber:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.uber span{
+	color: #49A144;
+}
+.block a img {
+	margin-right: 7px;
+}
+
+/****************************
+**********center**************
+*****************************/
+.block p{
+	margin: 0;
+	padding: 0;
+	margin-top: 23px;
+
+}
+.block p:nth-of-type(1){
+	margin-top: 39px;
+}
+.block p:nth-of-type(4){
+	margin-bottom: 48px;
+}
+.block p a{
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+/* footer */
+.img span {
+	float:right;
+}
+.img img{
+	margin: 0;
+	padding: 0;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.block-2 {
+	margin-top: 13px;
+	padding-bottom: 40px;
+}
+.block-2 p{
+	margin: 0;
+	padding: 0;
+	margin-top: 27px;
+}
+.block-2 p a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 11px;
+	line-height: 13px;
+}
+.button {
+	position: fixed;
+	right: 16px;
+	bottom: 24px;
+	display: block;
+	width: 80px;
+	padding: 25px 0;
+	text-align: center;
+	text-transform:uppercase;
+	background: #59BD5A;
+	border-radius: 2px;
+}
+a:hover{
+	opacity: 0.5;
+}

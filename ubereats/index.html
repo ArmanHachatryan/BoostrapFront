@@ -1,0 +1,243 @@
+﻿<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name='viewport' content="width=device-width, initial-scale=1.0">
+<script src="vendor/js/jquery-3.3.1.slim.min.js" defer></script>
+<link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+<script src="vendor/js/bootstrap.min.js" defer></script>
+<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+  	<link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <title>Страница</title>
+  </head>
+  <body>
+
+<!--модальные окна-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">Регистрация</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+
+          <form>
+            <div class="form-row">
+              <div class="col">
+            <div class="form-froup">
+              <label for="exampleInputEmail">Ваш E-mail</label>
+              <input type="email" name="email" class="form-control" id="exampleInputEmail" aria-decribdy="emailHelp" placeholder="Email" required>
+            </div>
+          </div>
+            <div class="col">
+            <div class="form-froup">
+              <label for="exampleInputPass">Ваш пароль</label>
+              <input type="password" name="pass" class="form-control" id="exampleInputpass" placeholder="Password" required >
+            </div>
+          </div>
+        </div>
+            <button type="submit" value="Отправить" class="btn btn-primary">Отправить</button>
+          </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <header>
+     <a name="anchor"></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-8 col-sm-9 col-lg-10">
+            <img src="pic/logo.svg" alt="UBEREATS" class="logo">
+          </div>
+      <div class="col-xs-4 col-sm-3 col-lg-2">
+        <nav>
+          <ul class="menu">
+            <li><a href="#" data-toggle="modal" data-target="#exampleModal">Войти</a></li>
+            <li><img src="pic/basket.svg" alt="basket" class="basket"></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  </header>
+
+<!--Строка-->
+  <section class="span">
+    <div class="container">
+    <form>
+      <span><input type="search" name="search" placeholder="Search for restauran"></span>
+    </form>
+      <hr>
+    </div>
+  </section>
+<!--Строка-->
+<!--Основа Начало-->
+  <section class="res">
+    <div class="container">
+      <h1>Рестораны в Москве</h1>
+      <div class="row">
+        
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="pic/1.png" alt="MAC" width="100%">
+          <span>Макдоналдс — Газетный</span>
+          <span>₽₽ • Бургеры</span>
+          <span>25 - 35 Min</span>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="pic/2.png" alt="MAC" width="100%" >
+          <span>DimSum & Co — ЦДМ</span>
+          <span>₽ • Японская • Китайская • Азиатская</span>
+          <span>40 - 50 мин</span>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="pic/3.png" alt="MAC" width="100%">
+          <span>ДвижОК — Манежная</span>
+          <span>₽ • Американская • Европейская</span>
+          <span>35 - 45 мин</span>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="pic/4.png" alt="MAC" width="100%">
+          <span>НЯ — NHA</span>
+          <span>₽₽ • Вьетнамская</span>
+          <span>30 - 40 мин</span>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="pic/5.png" alt="MAC" width="100%">
+          <span>Точка Дзы — Цветной</span>
+          <span>₽₽ • Вьетнамская</span>
+          <span>40 - 50 мин</span>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="pic/6.png" alt="MAC" width="100%">
+          <span>Cinnabon</span>
+          <span>₽ • Выпечка • Десерты • Капкейки</span>
+          <span>25 - 35 мин</span>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="pic/7.png" alt="MAC" width="100%">
+          <span>PIZZELOVE</span>
+          <span>₽₽ • Пицца</span>
+          <span>15 - 25 мин</span>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="pic/8.png" alt="MAC" width="100%">
+          <span>Zю кафе — Тверская</span>
+          <span>₽₽ • Японская</span>
+          <span>25 - 35 мин</span>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="pic/9.png" alt="MAC" width="100%">
+          <span>Bar BQ Cafe — Манежная</span>
+          <span>₽₽₽ • Европейская</span>
+          <span>30 - 40 мин</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+<!--Основа Конец-->
+
+<footer>
+  <section class="logo">
+  <div class="container">
+    <img src="pic/white-logo@2x.png" alt="logo">
+    <hr>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-7 col-sm-3 col-lg-3">
+        <form>
+        <select name="language">
+          <option value="Русский">Русский</option> 
+          <option value="Английский">Английский</option> 
+          <option value="Украинский">Украинский</option> 
+          <option value="Испанский">Испанский</option>
+      </select>
+    </form>
+
+
+      <a href="#" class="uber"><span>#</span>UberEats</a>
+      <a href="#"><img src="pic/facebook.png" alt="#"></a>
+      <a href="#"><img src="pic/twitter.png" alt="#"></a>
+      <a href="#"><img src="pic/instagram.png" alt="#"></a>
+      </div>
+      
+      <div class="col-12 col-sm-1 col-lg-1"></div>
+      
+      <div class="col-12 col-sm-4 col-lg-4">
+        <p><a href="#">Об UberEats</a></p>
+        <p><a href="#">Станьте партнёром по доставке</a></p>
+        <p><a href="#">Станьте парнёром-рестораном</a></p>
+      </div>
+
+      <div class="col-12 col-sm-4 col-lg-4">
+        <p><a href="#">Все города</a></p>
+        <p><a href="#">Цены</a></p>
+        <p><a href="#">Помощь</a></p>
+        <p><a href="#">FAQs</a></p>
+      </div>
+    </div>
+    </div>
+</section>
+
+<section class="img">
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-lg-6">
+        <span>
+          <a href="#"><img 
+            src="pic/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png" 
+            alt="app"></a>
+          </span>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-lg-6">
+          <a href="#"><img 
+            src="pic/en_badge_web_generic-cf6dad406f.png" 
+            alt="play"></a>
+        </div>
+      </div>
+      <hr>
+    </div>
+</section>
+
+<section class="block-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-lg-4">
+          <p><a href="#">© 2017 Uber Technologies Inc.</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-4">
+          <p><a href="#">Обработка персональных данных</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-4">
+          <p><a href="#">Пользовательское соглашение</a></p>
+
+        </div>
+
+      </div>
+  </div>
+       <a href="#anchor" class="button"><img src="pic/Shape.svg" alt="стрелка вверх">
+    </a>
+</footer>
+</body>
+</html>
